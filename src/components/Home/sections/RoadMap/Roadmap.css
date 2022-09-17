@@ -1,0 +1,21 @@
+.typed-out {
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  font-size: 1.6rem;
+  width: 0;
+  animation: typing 2s steps(20, end) forwards infinite;
+}
+
+.container {
+  display: inline-block;
+}
+
+@keyframes typing {
+  from {
+    width: 50%;
+  }
+  to {
+    width: 100%;
+  }
+}

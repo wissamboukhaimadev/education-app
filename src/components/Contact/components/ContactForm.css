@@ -1,0 +1,9 @@
+@media (max-width: 958px) {
+  .some__comp {
+    flex-direction: column;
+  }
+}
+
+.media__contact {
+  flex-grow: 2;
+}

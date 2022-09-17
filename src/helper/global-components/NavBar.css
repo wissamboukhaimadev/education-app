@@ -1,0 +1,8 @@
+@media (max-width: 800px) {
+  .res_right {
+    display: none;
+  }
+  .icon_menu {
+    display: block;
+  }
+}
