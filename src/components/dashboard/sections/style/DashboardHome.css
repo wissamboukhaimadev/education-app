@@ -1,0 +1,11 @@
+@media (max-width: 570px) {
+  .respons_fex_prob {
+    flex-direction: column;
+  }
+  .respons_fex_prob img {
+    height: 100%;
+  }
+  .respons_fex_prob_pad {
+    padding-bottom: 10px;
+  }
+}

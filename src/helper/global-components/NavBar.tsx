@@ -18,7 +18,7 @@ const NavBar: Component = () => {
     return (
         <nav class='flex justify-between py-10 px-10 shadow-lg'  >
             <div>
-                <Heading>Logo</Heading>
+                <Link href='/'><Heading>Logo</Heading></Link>
             </div>
             <div class='res_right'>
                 <For each={navigationItems}>

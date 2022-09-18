@@ -12,7 +12,7 @@ const App: Component = () => {
 
   return (
     <HopeProvider config={config}>
-      <NavBar />
+
       <Pages />
       <Footer />
     </HopeProvider>

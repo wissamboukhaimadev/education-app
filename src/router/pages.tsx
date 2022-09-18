@@ -2,7 +2,7 @@ import type { Component } from 'solid-js';
 import { Routes, Route } from '@solidjs/router'
 import NotFound from '../components/404_Page/NotFound';
 
-import { HomePage, ContactPage, PricingPage, RegisterPage, LoginPage } from '../pages'
+import { HomePage, ContactPage, PricingPage, RegisterPage, LoginPage, DashboardPage } from '../pages'
 
 const Pages: Component = () => {
     return (
@@ -12,6 +12,8 @@ const Pages: Component = () => {
             <Route path='/pricing' component={PricingPage} />
             <Route path='/register' component={RegisterPage} />
             <Route path='/login' component={LoginPage} />
+
+            <Route path='/dashboard' component={DashboardPage} />
             <Route path='*' component={NotFound} />
         </Routes>
     )

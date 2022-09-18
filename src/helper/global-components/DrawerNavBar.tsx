@@ -31,9 +31,9 @@ const DrawerNavBar: Component<drawerNavBarProps> = (props) => {
                                 </ListItem>
                             </Link>
                         ))}
-                        <Link href='/signup' onClick={onClose}>
+                        <Link href='/register' onClick={onClose}>
                             <ListItem class='py-2 hover:text-purple-400 cursor-pointer'>
-                                SignUp
+                                Create an Account
                             </ListItem>
                         </Link>
                     </List>

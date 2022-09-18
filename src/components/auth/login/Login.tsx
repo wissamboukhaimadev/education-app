@@ -44,7 +44,7 @@ const Login: Component = () => {
                         </div>
 
                         <footer class='pt-5 '>
-                            <Heading class='text-center'>Don't have an account? <span class='text-purple-600'>Create one</span> </Heading>
+                            <Heading class='text-center'>Don't have an account? <Link href='/register'><span class='text-purple-600'>Create one</span></Link> </Heading>
                         </footer>
                     </div>
 
